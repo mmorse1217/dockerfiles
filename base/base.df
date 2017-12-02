@@ -1,0 +1,11 @@
+FROM ubuntu:16.04
+
+RUN apt-get update && apt-get install -y \
+        emacs \ 
+        git \
+        mercurial \
+        openssh-client \
+        openssh-server \
+        tar \
+        vim;
+
